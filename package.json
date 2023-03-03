@@ -1,0 +1,36 @@
+{
+  "name": "test-react",
+  "homepage": "/",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "@craco/craco": "^7.0.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "craco-alias": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.1.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "build-win": "set CI=false&&craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
